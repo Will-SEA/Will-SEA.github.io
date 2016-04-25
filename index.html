@@ -224,21 +224,8 @@
 <p>​</p>
 </li>
 <li><p>Look for a bend or elbow in the sum of squared error (SSE) scree plot.</p>
-<blockquote>
-<ul>
-<li>For each point, the error is the distance to the nearest cluster– </li>
-<li>To get SSE, we square these errors and sum them.<ul>
-<li>SSE =  </li>
-</ul>
-</li>
-<li>x is a data point in cluster Ci andmi is the representative point for cluster Ci <ul>
-<li>can show that mi corresponds to the center (mean) of the cluster. </li>
-</ul>
-</li>
-<li>Given two clusters, we can choose the one with the smallest error</li>
-<li>One easy way to reduce SSE is to increase K, the number of clusters </li>
-</ul>
-</blockquote>
+<p>First of all, compute the sum of squared error (SSE) for some values of k (for example 2, 4, 6, 8, etc.). The SSE is defined as the sum of the squared distance between each member of the cluster and its centroid. Mathematically:</p>
+<p><img src="http://7xtdxk.com2.z0.glb.clouddn.com/SSE%20formula.png" alt="SSE formula"></p>
 </li>
 </ol>
 <p><strong>Silhouette</strong> refers to a method of interpretation and validation of consistency within <a href="https://en.wikipedia.org/wiki/Cluster_analysis" target="_blank" rel="external">clusters of data</a>. The technique provides a succinct graphical representation of how well each object lies within its cluster. It was first described by <a href="https://en.wikipedia.org/wiki/Peter_J._Rousseeuw" target="_blank" rel="external">Peter J. Rousseeuw</a> in 1986.<a href="https://en.wikipedia.org/wiki/Silhouette_(clustering" target="_blank" rel="external">[]</a>#cite_note-1)</p>
